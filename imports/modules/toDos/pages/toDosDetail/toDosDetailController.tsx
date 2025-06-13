@@ -7,7 +7,7 @@ import { toDosApi } from '../../api/toDosApi';
 import { IToDos } from '../../api/toDosSch';
 import { ISchema } from '/imports/typings/ISchema';
 import { IMeteorError } from '/imports/typings/BoilerplateDefaultTypings';
-import { AppLayoutContext } from '/imports/app/appLayoutProvider/appLayoutContext';
+import AppLayoutContext from '/imports/app/appLayoutProvider/appLayoutContext';
 
 interface IToDosDetailContollerContext {
 	closePage: () => void;
